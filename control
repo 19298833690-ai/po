@@ -1,0 +1,8 @@
+Package: com.local.po
+Name: po
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Description: CodeV 验证绕过 Tweak（rootless）
+Maintainer: local
+Author: local
+Section: Tweaks

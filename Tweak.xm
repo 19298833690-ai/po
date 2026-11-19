@@ -7,6 +7,8 @@
 #import <substrate.h>
 #import <sys/sysctl.h>
 
+extern "C" int ptrace(int request, pid_t pid, caddr_t addr, int data);
+
 static const NSUInteger kNSUTF8 = 4;
 static const long long kFarExpiry = 4070908799LL;
 
